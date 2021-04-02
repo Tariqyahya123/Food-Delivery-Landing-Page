@@ -1,0 +1,1085 @@
+
+body{
+  background-color: white;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'TT Norms Pro Medium', 'sans-serif';
+  font-size: 25px;
+
+  color: white;
+  padding: 5px;
+}
+
+h2 {
+  font-family: 'TT Norms Pro Regular', 'sans-serif';
+
+  font-size: 15px;
+
+  color: white;
+  padding: 5px;
+}
+
+h3 {
+  font-family: 'TT Norms Pro Medium', 'sans-serif';
+  color:white;
+  font-size: 40px;
+}
+h4{
+  font-family: 'Poppins', 'sans-serif';
+  font-weight: 600;
+
+  font-size: 28px;
+
+  color: black;
+  padding: 5px;
+}
+
+h5{
+  font-family: 'Poppins', 'sans-serif';
+  margin-left: 30%;
+  color: #EB1700;
+}
+
+h6 {
+  font-family: "TT Norms Pro Thin", 'sans-seriff';
+  color: white;
+  weight: 500;
+  opacity: 1;
+
+
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+p     {
+  font-family: 'Poppins', 'sans-serif';
+  font-weight: 100;
+
+  font-size: 15px;
+
+  color: black;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  position:relative;
+background-color: #B42A30;
+  width:100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.searchbar {
+  padding:0;
+  margin:0;
+ display: flex;
+ flex-direction: row;
+position: relative;
+
+right: -10px;
+  bottom: 100px;
+  width: 500px;
+}
+.searchbar-bar{
+
+
+  align-items: center;
+  justify-content: center;
+    border-radius: 50px;
+    height: 50px;
+    width: 120%;
+  padding-left: 60px;
+  font-size: 20px;
+    outline: 0;
+    background-color: white;
+background-size: 45px;
+background-position: 10px;
+background-repeat: no-repeat;
+    background-image: url(images/109316349-location-vector-icon-isolated-on-transparent-background-location-logo-concept.jpg);
+}
+
+.sent {
+  position: relative;
+left: -40px;
+bottom: -10px;
+border: none;
+  background-image: url(images/right-arrow.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+
+
+}
+
+.item-1-button:hover{
+  cursor: pointer;
+}
+
+.sent:hover{
+  cursor: pointer;
+}
+
+.valueprop{
+position: relative;
+
+bottom: 75px;
+padding:0;
+margin:0;
+
+}
+
+
+.toplinks {
+  display:flex;
+  font-family: 'TT Norms Pro Regular', 'sans-seriff';
+ position:absolute;
+ right:20px;
+
+}
+.top{
+
+
+display: flex;
+ justify-content: center;
+align-items: center;
+flex-direction: column;
+  margin: 0;
+  padding: 0;
+ height: 500px;
+   background: url(images/pexels-creative-vix-375467.jpg);
+  background-size: cover;
+background-position: left;
+  background-repeat: no-repeat;
+ width:100%;
+   box-shadow:inset 0 0 0 5000px rgba(0, 0, 0, 0.3);
+
+
+
+}
+
+.logobox {
+  display: flex;
+  justify-content: center;
+ align-items: flex-start;
+
+}
+
+.logo {
+padding-top:10px;
+padding-bottom: 10px;
+padding-right: 5px;
+
+  width: 75px;
+  height: auto;
+}
+
+.top-links {
+  color:green;
+}
+
+
+::placeholder {
+  font-family: 'TT Norms Pro Regular', 'sans-seriff';
+
+  font-size: 15px;
+
+}
+
+.things-to-do {
+padding-top: 100px;
+display: flex;
+flex-direction: row;
+width: 80%;
+
+
+
+}
+
+.thing {
+padding-top: 10px;
+  flex: 1fr;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.thing-logo{
+  width: 200px;
+
+  padding: 20px;
+  padding-bottom: 5px;
+  height: 200px;
+
+}
+
+.thing-logo-app{
+  width: 200px;
+
+
+  padding: 20px;
+  /* padding-top: 60px; */
+position: relative;
+top: 30px;
+  padding-bottom: 0px;
+  height: 200px;
+
+}
+
+.thing-delivery{
+  padding-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.thing-app{
+
+  width:80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+
+.thing-logo-delivery{
+  width: auto;
+  position: relative;
+  top: 30px;
+  display: flex;
+
+
+
+
+  height: 150px;
+}
+
+.line{
+  width: 100%;
+  height:   840px;
+
+  position: absolute;
+}
+
+.thing-header1 h4{
+  padding-top: 46px;
+  margin: 0;
+  text-align: center;
+
+}
+
+
+.thing-header2 h4{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+
+}
+
+
+.thing-header3 h4{
+
+  padding-top: 5px;
+  margin: 0;
+  text-align: center;
+}
+
+.before-footer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.before-footer--container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  justify-content: center;
+  align-items: center;
+  grid-auto-rows: 50% 50%;
+
+
+  padding: 30px;
+  padding-top: 100px;
+}
+
+.color{
+  height: 100px;
+  background-color: #FFF0ED;;
+
+  width: 100%;
+}
+
+.item-1 {
+
+  display: flex;
+padding: 30px;
+padding-right: 0px;
+position: relative;
+right: -60px;
+justify-content: flex-start;
+
+  flex-direction: column;
+  margin-bottom: 100px;
+
+}
+
+.item-1 p{
+
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 300;
+
+    font-size: 18px;
+    position: relative;
+    top: -50px;
+
+    color: black;
+    padding: 0;
+
+}
+
+.item-1 h4 {
+
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: bold;
+
+text-align: left;
+    font-size: 35px;
+    color: black;
+    padding:0;
+
+}
+
+.item-1-button{
+background-color: #EB1700;
+color: white;
+width: 150px;
+border: none;
+position: relative;
+top: -50px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 15px;
+padding-right: 15px;
+border-radius: 50px;
+font-size: 16px;
+font-family: 'TT Norms Pro Regular', 'sans-serif';
+}
+
+.item-2 {
+
+display: flex;
+justify-content: center;
+}
+
+.before-footer-2--container {
+  background-color: #FFF0ED;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  justify-content: center;
+  align-items: center;
+  grid-auto-rows: 50% 50%;
+
+
+
+  padding: 30px;
+  padding-top: 50px;
+
+}
+
+.item-3 {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.item-4 {
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+
+position: relative;
+left: -50px;
+}
+
+.item-4 p{
+  font-family: 'Poppins', 'sans-serif';
+  font-weight: 300;
+
+  font-size: 18px;
+  position: relative;
+  top: -50px;
+
+  color: black;
+  padding: 0;
+}
+
+
+.item-4 h4 {
+  font-family: 'Poppins', 'sans-serif';
+  font-weight: bold;
+
+text-align: left;
+  font-size: 35px;
+  color: black;
+  padding:0;
+
+
+
+}
+
+.item-4-button{
+background-color: #EB1700;
+color: white;
+width: 150px;
+border: none;
+position: relative;
+top: -50px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 15px;
+padding-right: 15px;
+border-radius: 50px;
+font-size: 16px;
+font-family: 'TT Norms Pro Regular', 'sans-serif';
+}
+
+.footer{
+  width: 100%;
+    background-color:#191919;
+    display: flex;
+flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+  width: 80%;
+
+  background-color:#191919;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+  justify-content: center;
+
+}
+
+footer ul {
+list-style-type: none;
+
+
+justify-content: center;
+padding: 20px;
+padding-bottom: 0px;
+
+
+}
+
+footer li {
+  font-family: "TT Norms Pro Regular", "sans-seriff";
+  font-size: 13px;
+  color: white;
+  opacity: 0.6;
+padding: 5px;
+}
+
+
+
+.stores{
+  display:flex;
+  flex-direction: column;
+  grid-column-start: 5;
+
+
+
+}
+
+.apple-store {
+  width: 201.56px;
+  height: 58.88px;
+padding: 10px;;
+padding-top: 0;
+margin: 0;
+opacity: 0.6;
+
+}
+
+.bottom-links{
+  color: white;
+
+  font-family: "TT Norms Pro Regular", "sans-seriff";
+  font-size: 12PX;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-right: 0px;
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  align-items: center;
+
+
+
+}
+
+.bottom-links li{
+  padding: 5px;
+  opacity: 0.7;
+
+}
+
+.bottom-links li:first-child{
+  opacity:1;
+}
+.bottom-links li:not(:last-child):hover{
+  padding: 5px;
+  cursor:pointer;
+  text-decoration: underline;
+
+}
+
+.full-bottom{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.bottom-logo{
+  width: 50px;
+position: relative;
+top: -3px; ;
+  height: auto;
+}
+
+
+.fa {
+  padding: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 30px;
+  width: 5px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+background-color: white;
+height: 40px;
+opacity: 1;
+  color: black;
+}
+
+  .fa-twitter {
+
+  color: white;
+}
+
+.fa-instagram {
+
+  color: white;
+}
+
+.socials{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0px;
+  padding-top: 0 ;
+justify-content: flex-start;
+align-items: flex-start;
+margin-right: 70px;
+}
+
+.socials li{
+padding: 5px;
+}
+
+.stores img:hover {
+  opacity: 1;
+  transition:  0.3s;
+}
+
+footer li:hover{
+  opacity: 1;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+.top-links1{
+  padding: 7px;
+  margin-right: 5px;
+
+}
+.top-links1 h2:hover{
+  color:#191919;
+  transition: color 0.3s;
+}
+
+.top-links2 h2{
+  color:#191919;
+  background-color: white;
+  border-radius: 50px;
+  padding: 12px;
+}
+
+
+@media screen and (max-width: 991px){
+
+
+body, html { overflow-x:hidden; }
+  *{
+    box-sizing: border-box;}
+
+
+
+
+  .things-to-do{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .thing .thing-header{
+    justify-content: center;
+    align-items: center;
+  }
+  .thing-header h5{
+    text-align: center;
+    margin: 0;
+
+  }
+  .before-footer--container{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 5rem;
+    padding: 0;
+
+  }
+
+  .before-footer-2--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 5rem;
+    padding: 0;
+
+  }
+  .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 0;
+margin-top: 5rem;
+    padding: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+
+  }
+
+  .item-1 h4{
+text-align: center;
+  margin: 0;
+
+  padding: 0;
+
+  }
+  .item-1 p{
+    margin: 0;
+    text-align: center;
+
+  margin-top: 5rem;
+  padding: 0;
+
+  }
+
+  .item-1-button{
+    margin: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0px;
+
+    margin-top: 0.5rem;
+  }
+
+  .color{
+    height: 0;
+  }
+
+  .item-3{
+    margin-top: 5rem;
+  }
+.item-4{
+  margin-bottom: 4rem;
+}
+/* h6{
+  font-size: 0.8rem;
+}
+footer li {
+  font-family: "TT Norms Pro Regular", "sans-seriff";
+  font-size: 10px;
+  color: white;
+  opacity: 0.6;
+padding: 5px;
+}*/
+
+
+footer ul{
+padding: 0;
+text-align: center;
+}
+
+footer li{
+  margin-top: 0;
+  font-size: 0.7rem;
+
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+margin: 0;
+
+}
+
+.bottom-links{
+  font-size: 0.6rem;
+}
+
+.full-bottom{
+  box-sizing: border-box;
+  width:  100%;
+  margin: 0;
+  padding: 0
+  border: 3px solid red;
+;
+
+
+}
+.socials{
+position: relative;
+left: 50px;
+padding: 0;
+}
+.bottom-links{
+width: 500px;
+}
+}
+
+@media screen and (max-width:650px){
+h3 {
+  font-size: 2rem;
+}
+.searchbar-bar{
+  height: 2.5rem;
+  width: 20rem;
+  transform: translateX(25%);
+
+}
+::placeholder{
+  font-size: 0.7rem;
+}
+.sent{
+transform: translate(270%,-20%);
+}
+.before-footer h4{
+  font-size: 1.5rem;
+
+}
+.before-footer p{
+  font-size: 0.9rem;
+  width: 60%;
+}
+
+.item-4 p{
+margin-top: 1.5rem;
+}
+.things-to-do img{
+  width: 200px;
+  height: auto;
+}
+
+.things-to-do h4{
+  font-size: 1.4rem;
+}
+.things-to-do h5{
+  font-size: 0.8rem;
+}
+.things-to-do p{
+  font-size: 0.8rem;
+}
+.thing-header3{
+  margin-top: 2.2rem;
+}
+h1{
+  font-size: 1.4rem;
+}
+.logo  {
+  width: 50px;
+  height: auto;
+  transform: translateY(13%);
+}
+h2{
+  font-size: 0.8rem;
+}
+.full-bottom{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+
+}
+.bottom-links{
+  width: 90%;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+.socials{
+margin-right: 6.5rem;
+}
+.item-2 img{
+  width: 100%;
+  height: auto;
+}
+.item-2{
+  width: 90%;
+}
+.item-3{
+  width: 90%;
+}
+.item-3 img {
+  width: 100%;
+  height: auto;
+}
+}
+@media screen and (max-width: 400px) {
+  .item p{
+    font-size: 0.8rem;
+    width: 80%;
+  }
+  h1{
+    opacity: 0;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .logobox{
+    margin-left: 1rem;
+  }
+.item h4{
+  font-size: 1.3rem;
+}
+
+.item-4 h4{
+  margin-bottom: 2rem;
+}
+h3{
+  font-size: 1.8rem;
+text-align: center;
+  
+}
+.searchbar-bar{
+  width: 15rem;
+  transform: translateX(50%);
+}
+.sent{
+ transform: translate(120px,-5px)
+}
+}
+
+/* #### Generated By: http://www.cufonfonts.com #### */
+
+    @font-face {
+    font-family: 'TT Norms Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('/Users/ghaziismael/Desktop/DoorDash/tt-norms-pro-cufonfonts-webfont/TT Norms Pro Regular.woff'), url('TT Norms Pro Regular.woff') format('woff');
+    }
+
+
+    @font-face {
+    font-family: 'TT Norms Pro Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TT Norms Pro Italic'), url('TT Norms Pro Italic.woff') format('woff');
+    }
+
+
+    @font-face {
+    font-family: 'TT Norms Pro Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TT Norms Pro Thin'), url('TT Norms Pro Thin.woff') format('woff');
+    }
+
+
+    @font-face {
+    font-family: 'TT Norms Pro Thin Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TT Norms Pro Thin Italic'), url('TT Norms Pro Thin Italic.woff') format('woff');
+    }
+
+
+    @font-face {
+    font-family: 'TT Norms Pro ExtraLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TT Norms Pro ExtraLight'), url('TT Norms Pro ExtraLight.woff') format('woff');
+    }
+
+
+    @font-face {
+    font-family: 'TT Norms Pro ExtraLight Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TT Norms Pro ExtraLight Italic'), url('TT Norms Pro ExtraLight Italic.woff') format('woff');
+    }
+
+
+    @font-face {
+    font-family: 'TT Norms Pro Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TT Norms Pro Light'), url('TT Norms Pro Light.woff') format('woff');
+    }
+
+
+    @font-face {
+    font-family: 'TT Norms Pro Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TT Norms Pro Light Italic'), url('TT Norms Pro Light Italic.woff') format('woff');
+    }
+
+
+    @font-face {
+    font-family: 'TT Norms Pro Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TT Norms Pro Medium'), url('TT Norms Pro Medium.woff') format('woff');
+    }
+
+
+    @font-face {
+    font-family: 'TT Norms Pro Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TT Norms Pro Medium Italic'), url('TT Norms Pro Medium Italic.woff') format('woff');
+    }
+
+
+    @font-face {
+    font-family: 'TT Norms Pro Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TT Norms Pro Bold'), url('TT Norms Pro Bold.woff') format('woff');
+    }
+
+
+    @font-face {
+    font-family: 'TT Norms Pro Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TT Norms Pro Bold Italic'), url('TT Norms Pro Bold Italic.woff') format('woff');
+    }
+
+
+    @font-face {
+    font-family: 'TT Norms Pro ExtraBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TT Norms Pro ExtraBold'), url('TT Norms Pro ExtraBold.woff') format('woff');
+    }
+
+
+    @font-face {
+    font-family: 'TT Norms Pro ExtraBold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TT Norms Pro ExtraBold Italic'), url('TT Norms Pro ExtraBold Italic.woff') format('woff');
+    }
+
+
+    @font-face {
+    font-family: 'TT Norms Pro Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TT Norms Pro Black'), url('TT Norms Pro Black.woff') format('woff');
+    }
+
+
+    @font-face {
+    font-family: 'TT Norms Pro Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TT Norms Pro Black Italic'), url('TT Norms Pro Black Italic.woff') format('woff');
+    }
+
+
+    @font-face {
+    font-family: 'TT Norms Pro ExtraBlack';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TT Norms Pro ExtraBlack'), url('TT Norms Pro ExtraBlack.woff') format('woff');
+    }
+
+
+    @font-face {
+    font-family: 'TT Norms Pro ExtraBlack Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TT Norms Pro ExtraBlack Italic'), url('TT Norms Pro ExtraBlack Italic.woff') format('woff');
+    }
